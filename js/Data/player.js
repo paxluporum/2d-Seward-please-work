@@ -19,7 +19,7 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/mm-idle-4-frames.png`
+		src:`images/MM-idle-and-run-copy.png`
 	},
 	states:{
 		//The idle animation 
@@ -29,24 +29,29 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:50, height:50, startX:0, startY:0},
-				{width:50, height:50, startX:50, startY:0},
-				{width:50, height:50, startX:100, startY:0}
+				{width:64, height:64, startX:0, startY:0},
+				{width:64, height:64, startX:64, startY:0},
+				{width:64, height:64, startX:128, startY:0},
+				{width:64, height:64, startX:192, startY:0} 
 				
 			]
 		},
 		//The walwidth:128, height:128,
 		walk:
 		{
-			fps:1,
+			fps:4,
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:0, startY:0},
-				{width:128, height:128, startX:128, startY:0},
-				{width:128, height:128, startX:256, startY:0},
-				{width:128, height:128, startX:384, startY:0},
-				{width:128, height:128, startX:512, startY:0}
+				{width:64, height:64, startX:256, startY:65},
+				{width:64, height:64, startX:320, startY:65},
+				{width:64, height:64, startX:384, startY:65},
+				{width:64, height:64, startX:448, startY:0},
+				{width:64, height:64, startX:512, startY:0},
+				{width:64, height:64, startX:0, startY:65},
+				{width:64, height:64, startX:64, startY:65},
+				{width:64, height:64, startX:128, startY:65},
+				{width:64, height:64, startX:192, startY:65}
 			]
 		},
 		//The jump animation 
