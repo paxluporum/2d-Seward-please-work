@@ -57,11 +57,12 @@ var playerData ={
 		//The jump animation 
 		jump:
 		{
-			fps:15,
+			fps:30,
 			cycle:false,
 			frames:
 			[
-				{width:128, height:128, startX:640, startY:0}
+				{width:64, height:64, startX:448, startY:65},
+				{width:64, height:64, startX:512, startY:65}
 			]
 		},
 		//The crouch animation 
