@@ -1,6 +1,6 @@
 
 /*------------Use this if you want to implement States---------------*/
-var gravity = 1;
+var gravity = 1.2;
 var friction = {x:.85,y:.97}
 
 var stage = new GameObject({width:canvas.width, height:canvas.height});
