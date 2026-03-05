@@ -92,11 +92,14 @@ var playerData ={
 		//The crouch animation 
 		grenade:
 		{
-			fps:15,
-			cycle:false,
+			fps:5,
+			cycle:true,
 			frames:
 			[
-				{width:64, height:64, startX:192, startY:128}
+				{width:64, height:64, startX:192, startY:128},
+				{width:64, height:64, startX:256, startY:128},
+				{width:64, height:64, startX:320, startY:128},
+				{width:64, height:64, startX:384, startY:128}
 			]
 		}
 	}
