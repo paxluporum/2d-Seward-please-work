@@ -22,6 +22,8 @@ gameStates[`menu`] =function(){
 		if(mouse.pressed)
 		{
 			//Changes to the game state
+			//put music here
+			sounds.play('music', 0, true)
 			gameStates.changeState(`level1`)
 		}
 
